@@ -153,3 +153,8 @@ Atributos de ARIA:
 * Propiedades
 * Estados
 
+### ARIA - Roles
+
+Roles de ARIA: Define el tipo general del objeto ( como un artículo, una alerta o un deslizador)
+
+Los roles le comunican al navegadores cuales son las interacciones que debería esperar y cómo se va a usar este objeto en nuestro proyecto. Se usan en situaciones muy especificas, es mejor depender del HTML semántico para comunicar los roles.
