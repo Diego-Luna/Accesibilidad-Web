@@ -47,7 +47,9 @@ img {
   --orange: rgb(236, 155, 3);
 }
 
-body, header, section {
+body,
+header,
+section {
   align-items: center;
   background-color: var(--blanco);
   display: flex;
@@ -94,7 +96,6 @@ nav {
 .nav-item a {
   text-decoration: none;
   color: white;
-
 }
 
 .nav-item {
@@ -144,13 +145,11 @@ nav {
 
 .project-container li {
   display: inline-block;
-
 }
 
-.project-container button{
+.project-container button {
   background: none;
   border: none;
-
 }
 
 .project {
@@ -199,7 +198,7 @@ nav {
   width: 100%;
 }
 
-.contact-section .header{
+.contact-section .header {
   color: white;
 }
 
@@ -223,6 +222,7 @@ input {
 .send-button {
   align-items: center;
   background-color: var(--orange);
+  border: none;
   border-radius: 5px;
   color: white;
   font-family: var(--secondary-font);
@@ -232,6 +232,7 @@ input {
   margin-bottom: 48px;
   width: 150px;
   margin-left: auto;
+  font-size: 16px;
 }
 
 .notification {
