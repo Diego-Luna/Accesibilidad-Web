@@ -94,7 +94,7 @@ nav {
 .nav-item a {
   text-decoration: none;
   color: white;
-  
+
 }
 
 .nav-item {
@@ -113,7 +113,7 @@ nav {
 }
 
 .intro {
-  margin: 0 196px;
+  margin: 24px 196px 0;
   font-family: var(--secondary-font);
 }
 
@@ -142,6 +142,17 @@ nav {
   width: 1500px;
 }
 
+.project-container li {
+  display: inline-block;
+
+}
+
+.project-container button{
+  background: none;
+  border: none;
+
+}
+
 .project {
   border-radius: 5px;
   border: 2px solid #000;
@@ -150,31 +161,12 @@ nav {
   margin: 0 8px;
   transition: all 0.2s ease-in-out;
   width: 250px;
+  object-fit: cover;
 }
 
 .project:hover {
   cursor: pointer;
   transform: scale(1.1);
-}
-
-.project1 {
-  background: center / cover no-repeat url(./images/AI.jpg);
-}
-
-.project2 {
-  background: center / cover no-repeat url(./images/arduino.jpg);
-}
-
-.project3 {
-  background: center / cover no-repeat url(./images/campus.jpg);
-}
-
-.project4 {
-  background: center / cover no-repeat url(./images/code.jpg);
-}
-
-.project5 {
-  background: center / cover no-repeat url(./images/maker.jpg);
 }
 
 .arrow {
