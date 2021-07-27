@@ -106,4 +106,14 @@ Combinaciones de lectores de pantalla y navegadores:
 * ChromeVox - Google 
 * Apartado de Chorme DevTools → En Elements → Accessibility → Accessibility Tree
 
+## VoiceOver
+
+Para activarlo: "fin" + "cmd" + "f5"
+
+Para pausar: "cmd"
+
+Mover adelante: "ctr" + "alt" + flecha derecha
+
+Mover atras:  "ctr" + "alt" + flecha izquierda
+
 
