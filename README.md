@@ -79,3 +79,15 @@ Tecnologías asistivas:
 1. Motoras:
 * Varilla bucal.
 * Switch
+
+
+## Pruebas manuales con tu teclado
+
+El teclado es muy importante en la accesibilidad web porque las tecnologías asistivas tienden a conectarse con el teclado para darle a sus usuarios diferentes maneras de navegar cuando no tienen acceso a un mouse o un teclado como nosotros.
+Los elementos que reciben foco de teclado son elementos interacctivos:
+
+* Enlaces: nos llevan a otra página, son para la navegación.
+* Botones: nos ayudan a interactuar con la página de alguna manera.
+* Formularios: requieren nuestra interacción para llenar nuestros datos.
+
+Los div no reciben foco porque son un elemento presentacional, no esperan ninguna interacción a menos de que tú lo programes.
