@@ -117,3 +117,28 @@ Mover adelante: "ctr" + "alt" + flecha derecha
 Mover atras:  "ctr" + "alt" + flecha izquierda
 
 
+## ¿Qué es el HTML semántico?
+
+El HTML semántico es una de las herramientas más poderosas a la mano a la hora de implementar la accesibilidad web
+
+### ¿Qué es?
+
+No solo nos ayuda con algunos aspectos de presentación pero le agrega significado a nuestro contenido. Es decir agregarle significado al navegador
+
+* Sin HTML semántico: Se puede crear una estructura visual buena con CSS pero realmente difícilmente los navegadores entenderán la semántica del sitio web construido
+
+```html
+<div></div>
+	<div></div><div></div>
+<div></div>
+```
+
+* Con HTML semántico:
+    * Usamos una variedad de elementos con significado que el navegador lee e implementa la presentación y alguna interacción.
+    * El navegador incluye esto en el árbol de accesibilidad, este lo usan los lectores de pantalla
+
+```html
+<header></header>
+	<article></article>
+<footer></footer>
+```
