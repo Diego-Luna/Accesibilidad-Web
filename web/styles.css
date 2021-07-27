@@ -94,6 +94,7 @@ body {
   height: 30px;
   justify-content: center;
   width: 33%;
+  background-color: orange;
 }
 
 .nav-item:hover {
