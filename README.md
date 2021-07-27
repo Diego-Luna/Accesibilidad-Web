@@ -91,3 +91,19 @@ Los elementos que reciben foco de teclado son elementos interacctivos:
 * Formularios: requieren nuestra interacción para llenar nuestros datos.
 
 Los div no reciben foco porque son un elemento presentacional, no esperan ninguna interacción a menos de que tú lo programes.
+
+## [42 Browser Extensions to Perform Accessibility Testing Effectively](https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/)
+
+## Lectores de Pantalla
+
+Los lectores de pantalla han abierto a la web a diversas personas que antes no podían usar los sitios web
+
+Combinaciones de lectores de pantalla y navegadores:
+
+* NVDA - Mozilla Firefox
+* JAWS - Internet Explorer
+* VoiceOver - Safari
+* ChromeVox - Google 
+* Apartado de Chorme DevTools → En Elements → Accessibility → Accessibility Tree
+
+
