@@ -142,3 +142,14 @@ No solo nos ayuda con algunos aspectos de presentación pero le agrega significa
 	<article></article>
 <footer></footer>
 ```
+
+## ARIA - Accessible Rich Internet Applications
+ARIA es un conjunto de atributos especiales para accesibilidad que pueden añadirse a cualquier etiqueta, pero especialmente adaptado a HTML
+
+ARIA ⇒ Fue creado por la W3C a través de WAI (web accessibility initiative)
+
+Atributos de ARIA:
+* Roles
+* Propiedades
+* Estados
+
