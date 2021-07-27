@@ -64,3 +64,18 @@ Cuando hacemos productos que funcionan en muchos lados, abrimos las posibilidade
 * 4.1 Maximizar la compatibilidad con las aplicaciones de usuario actuales y futuras, incluyendo las tecnologías asistivas
 
 Los demas: http://www.sidar.org/traducciones/wcag20/es/
+
+## Tecnología Asistivas - cuáles son y cómo funcionan
+
+Las tecnologías asistivas ayudan a las personas con alguna de sus capacidades mermadas, sean visuales, auditivas o motoras, a consumir la web de la misma forma que lo hacen los demás.
+
+Un ejemplo muy simple y común de este tipo de tecnologías son los lentes 👓. Estos permiten que personas con defectos en la visión puedan percibir el mundo igual que los demás.
+
+Tecnologías asistivas:
+1. Visuales:
+* Lectores de pantalla.
+* Extensiones que manipulan el CSS.
+
+1. Motoras:
+* Varilla bucal.
+* Switch
