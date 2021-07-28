@@ -59,6 +59,7 @@ section {
 
 .skip-link {
   height: 0;
+  color: white;
 }
 
 .skip-link:focus,
@@ -68,7 +69,7 @@ section {
   color: var(--gris-oscuro);
   font-family: var(--secondary-font);
   height: auto;
-  margin: 16px 0 8px ;
+  margin: 16px 0 8px;
   padding: 8px;
   text-decoration: none;
 }
@@ -129,6 +130,20 @@ nav {
   background-color: var(--orange);
 }
 
+.nav-item:focus-within {
+  background-color: var(--orange);
+}
+
+.nav-item a:focus {
+  outline: none;
+  color: white;
+}
+
+.skip-link:focus {
+  outline: none;
+  background-color: var(--orange);
+}
+
 .intro {
   margin: 24px 196px 0;
   font-family: var(--secondary-font);
@@ -141,12 +156,26 @@ nav {
   margin: 32px auto 0;
 }
 
+.social-media li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .social-media li a {
   align-items: center;
   display: flex;
   color: black;
   font-family: var(--secondary-font);
   text-decoration: none;
+}
+
+.social-media li a:focus {
+  outline: none;
+}
+
+.social-media li:focus-within {
+  outline: 3px solid var(--orange);
+  padding: 8px;
 }
 
 .social-text {
@@ -162,7 +191,8 @@ nav {
 
 .window {
   overflow: hidden;
-  width: 805px;
+  width: 815px;
+  padding: 8px;
 }
 
 .project-container {
@@ -178,6 +208,11 @@ nav {
 .project-container button {
   background: none;
   border: none;
+  padding: 0;
+}
+
+.project-container button:focus-within {
+  outline: 3px solid var(--orange);
 }
 
 .project {
@@ -243,13 +278,17 @@ nav {
 }
 
 input {
-  outline: none;
   width: 100%;
+}
+
+input:focus {
+  outline: 3px solid var(--orange);
+  padding: 8px;
 }
 
 .send-button {
   align-items: center;
-  background-color: var(--orange);
+  background-color: orange;
   border: none;
   border-radius: 5px;
   color: white;
@@ -261,6 +300,11 @@ input {
   width: 150px;
   margin-left: auto;
   font-size: 16px;
+}
+
+.send-button:focus {
+  background-color: var(--orange);
+  outline: none;
 }
 
 .notification {
