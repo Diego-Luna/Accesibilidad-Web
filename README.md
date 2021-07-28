@@ -198,3 +198,17 @@ Podemos usar el atributo aria-hidden para ocultar algunas cosas de los lectores 
 ```html
 <li aria-hidden="true">...</li>
 ```
+
+## Contrastes de color
+
+El contraste de color es la diferencia existente entre dos o más colores que interactúan en un diseño de forma que afectan al modo en el cual se percibe. El color según sus diferentes características influye en el efecto que causa en las personas
+
+* Los contrastes de color se refieren a la diferencia del color de fondo y color del texto
+
+* Normalmente es tarea del diseñador encargarse de este aspecto, pero como desarrolladores podemos encargarnos de detectar problemas de contraste para posteriormente comunicar el problema
+
+* Si el contraste es muy bajo no se puede ver el texto correctamente
+
+* Podemos usar Chrome Dev Tools para revisar el contraste de los colores de los textos
+    * Nos indicaran a que nivel de WCAG estaremos llegando
+
