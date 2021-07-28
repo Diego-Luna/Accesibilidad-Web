@@ -158,3 +158,22 @@ Atributos de ARIA:
 Roles de ARIA: Define el tipo general del objeto ( como un artículo, una alerta o un deslizador)
 
 Los roles le comunican al navegadores cuales son las interacciones que debería esperar y cómo se va a usar este objeto en nuestro proyecto. Se usan en situaciones muy especificas, es mejor depender del HTML semántico para comunicar los roles.
+
+### ARIA properties
+
+Las propiedades ARIA la vamos a usar más seguido.
+
+Comunican atributos que son esenciales para el comportamiento o significado de un elemento pero que se suelen comunicar visualmente
+
+#### ARIA label
+Podemos usar para agregar un string para describir un elemento de nuestro código
+Ejemplo:
+
+```html
+<form class="form-container">
+        Nombre<input type="text" aria-label="nombre"/> <br />
+        Correo<input type="text" aria-label="correo"/> <br />
+        <div class="message-input">Mensaje<input type="text" /> <br /></div>
+        <button class="send-button">Enviar</button>
+      </form>
+```
