@@ -234,3 +234,15 @@ background..
 font ...
 } /* de esta forma cuando navegen con un teclado este aparecerá*/
 ```
+
+## Tabindex
+
+Indica si su elemento puede ser enfocado, y si participa en la navegación secuencial del teclado.
+
+Valores de Tabindex:
+
+* Valor negativo(-1): El elemento debe ser enfocado, pero no debe de ser accesible a través de la navegación.
+
+* Valor positivo (>0): Debe poder ser enfocado y su orden relativo es definido por el valor del atributo.
+
+* Valor de 0: Debe ser enfocado y ser accesible a través de la navegación secuencial del teclado, pero su orden relativo es definido por convención de la plataforma.
