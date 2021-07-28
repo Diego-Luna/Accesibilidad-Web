@@ -144,9 +144,12 @@ nav {
   background-color: var(--orange);
 }
 
-.intro {
+.intro{
   margin: 24px 196px 0;
   font-family: var(--secondary-font);
+}
+.intro-header {
+  color: white;
 }
 
 .social-media {
