@@ -76,18 +76,18 @@
         <button class="arrow arrow-left" aria-label="backward button"> </button>
         <div class="window">
           <ul class="project-container">
-            <li class="project1-container"> <button class="project1"> <img class="project" src="./web/images/AI.jpg"
-                  alt="Proyecto de AI"> </button> </li>
-            <li class="project2-container"> <button class="project2"> <img class="project"
+            <li class="project1-container"> <button class="project1 project"> <img class="project-img"
+                  src="./web/images/AI.jpg" alt="Proyecto de AI"> </button> </li>
+            <li class="project2-container"> <button class="project2 project"> <img class="project-img"
                   src="./web/images/arduino.jpg" alt="Proyecto de arduino">
               </button> </li>
-            <li class="project3-container"> <button class="project3"> <img class="project" src="./web/images/campus.jpg"
-                  alt="Proyecto de Maker campus">
+            <li class="project3-container"> <button class="project3 project"> <img class="project-img"
+                  src="./web/images/campus.jpg" alt="Proyecto de Maker campus">
               </button> </li>
-            <li class="project4-container" aria-hidden="true"> <button class="project4" tabindex="-1"> <img
-                  class="project" src="./web/images/code.jpg" alt="Code adventure"> </button> </li>
-            <li class="project5-container" aria-hidden="true"> <button class="project5" tabindex="-1"> <img
-                  class="project" src="./web/images/maker.jpg" alt="Maker camp"> </button> </li>
+            <li class="project4-container" aria-hidden="true"> <button class="project4 project" tabindex="-1"> <img
+                  class="project-img" src="./web/images/code.jpg" alt="Code adventure"> </button> </li>
+            <li class="project5-container" aria-hidden="true"> <button class="project5 project" tabindex="-1"> <img
+                  class="project-img" src="./web/images/maker.jpg" alt="Maker camp"> </button> </li>
           </ul>
         </div>
         <button class="arrow arrow-right" aria-label="forward button"></button>
@@ -112,8 +112,9 @@
   <div class="notification">El formulario fue enviado sin errores</div>
   <div class="modal-container">
     <div class="modal">
-      Ejemplo de un proyecto mio
-      <div class="modal-project-image"></div>
+      <h2 class="header"> Ejemplo de un proyecto mio </h2>
+      <img id="img-modal" src="./web/images/AI.jpg" class="modal-project-image" alt="una photo de mi proyecto"/>
+      <button class="modal-button" >Cerrar</button>
     </div>
   </div>
 

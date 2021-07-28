@@ -28,19 +28,27 @@ function clickRight() {
   switch (newValue) {
     case -270:
       document.querySelector(".project1").setAttribute("tabindex", "-1");
-      document.querySelector(".project1-container").setAttribute("aria-hidden", "true");
+      document
+        .querySelector(".project1-container")
+        .setAttribute("aria-hidden", "true");
 
       document.querySelector(".project4").removeAttribute("tabindex");
-      document.querySelector(".project4-container").removeAttribute("aria-hidden");
+      document
+        .querySelector(".project4-container")
+        .removeAttribute("aria-hidden");
 
       break;
 
     case -540:
       document.querySelector(".project2").setAttribute("tabindex", "-1");
-      document.querySelector(".project2-container").setAttribute("aria-hidden", "true");
+      document
+        .querySelector(".project2-container")
+        .setAttribute("aria-hidden", "true");
 
       document.querySelector(".project5").removeAttribute("tabindex");
-      document.querySelector(".project5-container").removeAttribute("aria-hidden");
+      document
+        .querySelector(".project5-container")
+        .removeAttribute("aria-hidden");
 
       break;
 
@@ -65,20 +73,27 @@ function clickLeft() {
   switch (newValue) {
     case -270:
       document.querySelector(".project5").setAttribute("tabindex", "-1");
-      document.querySelector(".project5-container").setAttribute("aria-hidden", "true");
+      document
+        .querySelector(".project5-container")
+        .setAttribute("aria-hidden", "true");
 
       document.querySelector(".project2").removeAttribute("tabindex");
-      document.querySelector(".project2-container").removeAttribute("aria-hidden");
+      document
+        .querySelector(".project2-container")
+        .removeAttribute("aria-hidden");
 
       break;
 
     case 0:
       document.querySelector(".project4").setAttribute("tabindex", "-1");
-      document.querySelector(".project4-container").setAttribute("aria-hidden", "true");
-
+      document
+        .querySelector(".project4-container")
+        .setAttribute("aria-hidden", "true");
 
       document.querySelector(".project1").removeAttribute("tabindex");
-      document.querySelector(".project1-container").removeAttribute("aria-hidden");
+      document
+        .querySelector(".project1-container")
+        .removeAttribute("aria-hidden");
 
       break;
 
@@ -98,6 +113,11 @@ function showNotification() {
 /** Esta funcion se llama cuando la persona hace click en cualquier porjecto del carousel */
 function openModal(e) {
   document.querySelector(".modal-container").style.display = "flex";
+
+  /* IMG contiene la ruta de la imagen */
+  let IMG = e.srcElement.currentSrc;
+  /* Pongo esa ruta en el parametro src de la imagen */
+  document.querySelector("#img-modal").setAttribute("src", IMG);
 }
 
 /** Esta funcion se llama para cerrar el modal */
