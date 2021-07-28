@@ -165,7 +165,7 @@ Las propiedades ARIA la vamos a usar más seguido.
 
 Comunican atributos que son esenciales para el comportamiento o significado de un elemento pero que se suelen comunicar visualmente
 
-#### ARIA label
+### ARIA label
 Podemos usar para agregar un string para describir un elemento de nuestro código
 Ejemplo:
 
@@ -176,4 +176,25 @@ Ejemplo:
         <div class="message-input">Mensaje<input type="text" /> <br /></div>
         <button class="send-button">Enviar</button>
       </form>
+```
+
+### ARIA states
+
+Estados de ARIA comunican estados y cambios de estados en elementos que se suelen comunicar visualmente
+
+Existen veces que mostramos casos que solo pasan cuando algo cambia en la pantalla
+* Impidiendo que personas con discapacidades visuales no podrán notar ese cambio
+
+* Debemos dar una experiencia del sitio a personas discapacitadas al igual que damos importancia a personas sin ningún problema
+
+Si tenemos un checkbox
+*   Sabemos que esta seleccionado por que está marcado
+*   Alguien con discapacidad quizás no pueda ver eso
+
+Un lector de pantalla no se dará cuenta que algunas cosas no se están mostrando.
+Podemos usar el atributo aria-hidden para ocultar algunas cosas de los lectores de pantalla,
+
+
+```html
+<li aria-hidden="true">...</li>
 ```
