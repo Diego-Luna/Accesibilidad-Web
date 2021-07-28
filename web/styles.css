@@ -57,6 +57,22 @@ section {
   width: 100%;
 }
 
+.skip-link {
+  height: 0;
+}
+
+.skip-link:focus,
+.skip-link:active {
+  background-color: orange;
+  border-radius: 5px;
+  color: var(--gris-oscuro);
+  font-family: var(--secondary-font);
+  height: auto;
+  margin: 16px 0 8px ;
+  padding: 8px;
+  text-decoration: none;
+}
+
 .header {
   color: black;
   font-family: var(--main-font);

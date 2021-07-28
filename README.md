@@ -212,3 +212,25 @@ El contraste de color es la diferencia existente entre dos o más colores que in
 * Podemos usar Chrome Dev Tools para revisar el contraste de los colores de los textos
     * Nos indicaran a que nivel de WCAG estaremos llegando
 
+## Skip links
+Son botones que a simple vista no se ven pero al momento que un software de lectura de texto los detecta aparecene
+
+Se crean poniendo un botón común y corriente
+
+```html
+<button id="skip-link">Saltar al contenido</button>
+
+```
+
+Y en css le pondremos lo siguiente
+
+```css
+.skip-link{
+weight: 0; /* desaparecemos el botón a simple vista*/
+}
+.skip-link:focus,
+.skip-link:active{
+background..
+font ...
+} /* de esta forma cuando navegen con un teclado este aparecerá*/
+```
