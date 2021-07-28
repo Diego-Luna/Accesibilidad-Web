@@ -64,7 +64,7 @@ section {
 
 .skip-link:focus,
 .skip-link:active {
-  background-color: orange;
+  background-color: var(--orange);
   border-radius: 5px;
   color: var(--gris-oscuro);
   font-family: var(--secondary-font);
@@ -123,7 +123,7 @@ nav {
   height: 30px;
   justify-content: center;
   width: 33%;
-  background-color: orange;
+  background-color: var(--orange);
 }
 
 .nav-item:hover {
@@ -297,7 +297,7 @@ input:focus {
 .modal-button,
 .send-button {
   align-items: center;
-  background-color: orange;
+  background-color: var(--orange);
   border: none;
   border-radius: 5px;
   color: white;
