@@ -123,7 +123,19 @@ nav {
   display: flex;
   justify-content: space-around;
   margin: 32px auto 0;
-  width: 20%;
+}
+
+.social-media li a {
+  align-items: center;
+  display: flex;
+  color: black;
+  font-family: var(--secondary-font);
+  text-decoration: none;
+}
+
+.social-text {
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 .carousel {
@@ -282,4 +294,9 @@ input {
   height: 400px;
   margin: 16px;
   width: 550px;
+}
+
+.form-label {
+  color: white;
+  font-family: var(--main-font);
 }
